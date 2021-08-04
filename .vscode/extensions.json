@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "golang.go",
+        "visualstudioexptteam.vscodeintellicode",
+        "christian-kohler.npm-intellisense",
+        "steoates.autoimport",
+        "eg2.vscode-npm-script",
+        "quicktype.quicktype",
+        "christian-kohler.path-intellisense",
+        "humao.rest-client",
+        "dbaeumer.vscode-eslint",
+        "ricardoerikson.vscode-go-impl-methods",
+        "github.copilot",
+        "dsznajder.es7-react-js-snippets"
+    ]
+}
