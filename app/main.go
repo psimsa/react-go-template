@@ -11,7 +11,10 @@ import (
 var reactContent embed.FS
 
 func main() {
-	dist, _ := fs.Sub(reactContent, "dist")
+	dist, err := fs.Sub(reactContent, "dist")
+	if err != nil {
+		panic(err)
+	}
 	var distFS = http.FS(dist)
 	web.Serve(distFS, ":4200")
 }
