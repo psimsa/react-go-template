@@ -10,5 +10,17 @@
   "prHourlyLimit": 0,
   "baseBranches": [
     "develop"
+  ],
+  "ignoreTests": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    }
   ]
 }
