@@ -8,10 +8,6 @@
   "updateLockFiles": false,
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
-  "baseBranches": [
-    "develop"
-  ],
-  "ignoreTests": true,
   "packageRules": [
     {
       "matchUpdateTypes": [
