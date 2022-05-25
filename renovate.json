@@ -4,8 +4,6 @@
   ],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
-  "separateMinorPatch": false,
-  "updateLockFiles": false,
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "packageRules": [
