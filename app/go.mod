@@ -1,6 +1,6 @@
 module main
 
-go 1.16
+go 1.19
 
 require (
 	github.com/gorilla/handlers v1.5.1
